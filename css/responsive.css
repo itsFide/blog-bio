@@ -1,0 +1,119 @@
+@media screen and (max-width:1250px){
+    .container{
+        padding: 0 15px;
+    }
+}
+@media screen and (max-width:1065px){
+    .news-item{
+        width: calc((100% - 50px) / 2);
+    }
+    .news-item:nth-child(3n){
+        margin-right: 25px;
+    }
+}
+@media screen and (max-width:770px){
+    .header-logo p{
+        font-size: 24px;
+    }
+    .header-logo span{
+        font-size: 24px;
+    }
+    .header{
+        padding-top: 125px;
+        margin-bottom: 13px;
+    }
+    .blog-filter-list li{
+        padding: 5px 22px;
+
+    }
+    .blog-filter-link{
+        font-size: 12px;
+    }
+    .blog-filter-list{
+        width: 100%;
+    }
+    .blog-filter-list li{
+        margin-right: 10px;
+        margin-bottom: 10px;
+        box-shadow: 5px 5px 10px rgba(174, 174, 174, 0.4), -5px -5px 5px #FFFFFF;
+
+    }
+    .news-wrapper{
+        margin-top: 40px;
+    }
+    .container{
+        padding: 0 44px;
+    }
+    .news-item{
+        margin-right: 30px;
+        margin-bottom: 30px;
+        height: 518px;
+        width: calc((100% - 30px) / 2);
+    }
+    .news-item:nth-child(2n){
+        margin-right: 0px;
+    }
+    .news-item-title h4{
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .news-item-text{
+        padding: 18px 30px;
+    }
+    .news-item-descr p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .news-item-tag{
+        bottom: 8%;
+    }
+    .news-item-info{
+        bottom: 5%;
+    }
+    .news-item-info-item img{
+        width: 10px;
+        height: 10px;
+    }
+    .news-item-info-item p{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    
+}
+@media screen and (max-width:635px){
+    .news-item{
+        width: 100%;
+        margin-right: 0;
+        height: 100%;
+    }
+    .news-item-info{
+        position: static;
+    }
+    .news-item-tag{
+        position: static;
+    }
+    .container{
+        padding: 0 27px;
+        width: 100%;
+    }
+    .blog-filter-list li{
+        padding: 0 15px;
+        line-height: 14.09px;
+    }
+    .news-item-text{
+        padding: 30px;
+    }
+    .news-item-descr{
+        margin-bottom: 27px;
+    }
+    .news-item-info{
+        width: 100%;
+    }
+    .news-item:nth-child(3n){
+        margin-right: 0;
+    }
+    .news-item-info-item{
+        margin-right: 10px;
+    }
+}
+
