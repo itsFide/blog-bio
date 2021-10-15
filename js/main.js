@@ -132,7 +132,6 @@ filterItem.forEach((event)=>{
         for(let i = 0; i < keys.length; i++){
           if(keys[i].title == itemAttr){
             keys[i].selected = false;
-            console.log(keys[i]);
             // выбранные значения фильтра 
             let keysSelectedFilter = keys.filter(i => i.selected).map(i => i.title)
             let result = array.filter(i => 

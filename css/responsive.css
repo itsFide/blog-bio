@@ -48,7 +48,7 @@
         margin-right: 30px;
         margin-bottom: 30px;
         height: 518px;
-        width: calc((100% - 30px) / 2);
+        width: calc((100% - 60px) / 2);
     }
     .news-item:nth-child(2n){
         margin-right: 0px;
@@ -85,6 +85,7 @@
         width: 100%;
         margin-right: 0;
         height: 100%;
+        margin-left: 0;
     }
     .news-item-info{
         position: static;

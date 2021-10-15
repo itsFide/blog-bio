@@ -104,15 +104,14 @@ a{
     position: relative;
     box-shadow: 10px 10px 20px rgba(174, 174, 174, 0.4), -10px -10px 10px #FFFFFF;
     border-radius: 33px;
-    width: calc((100% - 50px) / 3);
-    margin-right: 25px;
+    width: calc((100% - 60px) / 3);
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #fff;
     height: 600px;
     margin-bottom: 60px;
 }
-.news-item:nth-child(3n){
-    margin-right: 0;
-}
+
 .news-item-img img{
     width: 100%;
     border-top-right-radius: 33px;
